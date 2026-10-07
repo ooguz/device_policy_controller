@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 36
 
         namespace "com.itisnajim.device_policy_controller"
 
@@ -67,5 +67,4 @@ android {
 
 dependencies {
     //implementation(name:'dpcsupport-yyyymmdd', ext:'aar')
-    implementation 'com.google.android.gms:play-services-auth:11.4.0'
 }
